@@ -1,0 +1,26 @@
+{
+  "name": "turn-panel",
+  "version": "0.3.1",
+  "description": "그 세션의 요청과 완료 보고를 패널에 묶어 보여 주고, 진행 상황과 근거 붙은 다음 작업 제안을 그 자리에서 고르게 한다.",
+  "author": {
+    "name": "JunH-K"
+  },
+  "homepage": "https://github.com/JunH-K/claude-turn-panel",
+  "repository": "https://github.com/JunH-K/claude-turn-panel",
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "editor": {
+      "type": "string",
+      "title": "파일을 여는 편집기",
+      "description": "보고 속 파일 경로와 바뀐 파일을 눌렀을 때 여는 편집기다. webstorm·vscode·cursor는 각자의 명령 줄 실행기(webstorm, code, cursor)를 쓰고, system은 맥의 기본 글 편집기로 연다. 파일의 기본 앱으로는 열지 않는다(스크립트나 앱이 실행될 수 있다).",
+      "options": [
+        "webstorm",
+        "vscode",
+        "cursor",
+        "system"
+      ],
+      "default": "webstorm"
+    }
+  }
+}

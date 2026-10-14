@@ -1,0 +1,8 @@
+# 엔진이 모드를 불러올 때마다 깔아 주는 타입 선언 (버전마다 다시 쓰인다)
+.claude-plugin/types/
+
+# 도구가 남기는 상태
+.omc/
+.serena/
+node_modules/
+.DS_Store

@@ -1,0 +1,6 @@
+{
+  "name": "claude-turn-panel",
+  "description": "요청과 완료 보고를 패널에 묶어 보여 주는 Claude Code 모드 turn-panel의 설치 출처.",
+  "owner": { "name": "JunH-K" },
+  "plugins": [{ "name": "turn-panel", "source": "./" }]
+}
